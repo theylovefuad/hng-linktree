@@ -1,13 +1,159 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{margin: 0;    background-color: #F5F7FB;padding-left: 75px;
+    padding-right: 75px; padding-top: 40px;
+}
+.details{
+    position:relative;
+    top:218px;
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+margin-bottom: 0px;
+color: #293264;
+}
+.description{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-top:9px;
+color: #293264;
+}
+.start{
+    width: 193px;
+height: 52px;
+left: 179px;
+top: 314px;
+border:none;
+background: #4D5B9E;
+border-radius: 15px;
+margin-top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+cursor:pointer;
+color: #F5F7FB;
+
+}
+ul{display: inline;}
+ul li{display: inline;}
+ul li button{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    /* identical to box height */
+    padding: 5px;
+    text-align: center;
+    
+    color: #293264;}
+.optionButton{
+cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul li .optionButton, .incorrect{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    /* identical to box height */
+    padding: 5px;
+    text-align: center;
+    color: #293264;}
+.optionButton{
+cursor: pointer;
+}
+.question{font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 500px;
+    color: #293264;
+    }
+    main{padding: 10px;}
+.selected{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    padding: 5px;
+    background: #D6DBF5;
+    border-radius: 7.71045px;
+    cursor: pointer;
+    border:none;
+    }
+.submit{
+width: 120px;
+height: 35px;
+border: none;
+background: #4D5B9E;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+line-height: 12px;
+color: #F5F7FB;
+margin-top: 20px;
+justify-content: center;
+position: absolute;
+left: 25%;
+}
+.correct{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    padding: 5px;
+    background: #94D7A2;
+    border-radius: 7.71045px;
+    border:none;
+    color:#293264;
+    }
+.wrong{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    padding: 5px;
+    background: #F8BCBC;
+    color:#293264;
+    border-radius: 7.71045px;
+    border:none;
+
+}
+@media (max-width:768px) {
+    ul li {display: block;}
+}
+.submit2{
+    width: 120px;
+    height: 35px;
+    border: none;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 12px;
+    color: #F5F7FB;
+    margin-top: 20px;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    
 }
