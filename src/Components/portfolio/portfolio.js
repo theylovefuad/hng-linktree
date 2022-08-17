@@ -6,6 +6,7 @@ import foodapp from '../../assets/food.png'
 import social from '../../assets/social.png'
 import newsapp from '../../assets/news app.png'
 import netflix from '../../assets/netflix.png'
+import maveair from '../../assets/maveair.png'
 
 export default function Portfolio (){
     return(
@@ -37,6 +38,14 @@ export default function Portfolio (){
                         <h3>Online Shopping Site with Django</h3>
                         <a href="https://maveng.pythonanywhere.com" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={maveair} alt=""/>
+                    </div>
+                        <h3>Landing Page with Tailwind CSS</h3>
+                        <a href="https://maveair.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                </article>
+
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
                         <img src={reactapp} alt=""/>
