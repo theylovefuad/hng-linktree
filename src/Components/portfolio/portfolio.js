@@ -7,65 +7,73 @@ import social from '../../assets/social.png'
 import newsapp from '../../assets/news app.png'
 import netflix from '../../assets/netflix.png'
 import maveair from '../../assets/maveair.png'
+import analytics from '../../assets/analytics.png'
 
-export default function Portfolio (){
-    return(
+export default function Portfolio() {
+    return (
         <section id="portfolio">
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
-            
+
             <div className='container portfolio__container'>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={netflix} alt=""/>
+                        <img src={netflix} alt="" />
                     </div>
-                        <h3>Netflix Clone</h3>
-                        <a href="https://fuad-netflix.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Netflix Clone</h3>
+                    <a href="https://fuad-netflix.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                </article>
+                <article className="portfolio__item">
+                    <div className="portfolio__item-image">
+                        <img src={analytics} alt="" />
+                    </div>
+                    <h3>Analytics App with React</h3>
+                    <a href="https://mave-analytics.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={newsapp} alt=""/>
+                        <img src={newsapp} alt="" />
                     </div>
-                        <h3>Real Time News App with React JS</h3>
-                        <a href="#" className="btn" target='__blank'>Not in Production</a>
+                    <h3>Real Time News App with React JS</h3>
+                    <a href="#" className="btn" target='__blank'>Not in Production</a>
                 </article>
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={shoppingimg} alt=""/>
+                        <img src={shoppingimg} alt="" />
                     </div>
-                        <h3>Online Shopping Site with Django</h3>
-                        <a href="https://maveng.pythonanywhere.com" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Online Shopping Site with Django</h3>
+                    <a href="https://maveng.pythonanywhere.com" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={maveair} alt=""/>
+                        <img src={maveair} alt="" />
                     </div>
-                        <h3>Landing Page with Tailwind CSS</h3>
-                        <a href="https://maveair.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Landing Page with Tailwind CSS</h3>
+                    <a href="https://maveair.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
 
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={reactapp} alt=""/>
+                        <img src={reactapp} alt="" />
                     </div>
-                        <h3>Quiz App with React JS</h3>
-                        <a href="https://mavequiz.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Quiz App with React JS</h3>
+                    <a href="https://mavequiz.netlify.app" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={foodapp} alt=""/>
+                        <img src={foodapp} alt="" />
                     </div>
-                        <h3>Food Ordering Website</h3>
-                        <a href="https://themaverickfuad.pythonanywhere.com" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Food Ordering Website</h3>
+                    <a href="https://themaverickfuad.pythonanywhere.com" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
                 <article className="portfolio__item">
                     <div className="portfolio__item-image">
-                        <img src={social} alt=""/>
+                        <img src={social} alt="" />
                     </div>
-                        <h3>Social Media App with Django</h3>
-                        <a href="#" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
+                    <h3>Social Media App with Django</h3>
+                    <a href="#" rel="noreferrer" className="btn" target='__blank'>Visit Website</a>
                 </article>
 
             </div>
